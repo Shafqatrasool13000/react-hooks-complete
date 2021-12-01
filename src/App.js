@@ -1,12 +1,15 @@
 import './App.css';
-import ArrayUseState from './components/ArrayUseState';
+import IntervalCountFuctionContainer from './components/IntervalCountFuctionContainer';
+
 
 
 
 function App() {
+  
   return (
     <div className="App">
-      <ArrayUseState/>
+      
+      <IntervalCountFuctionContainer/>
     </div>
   );
 }
